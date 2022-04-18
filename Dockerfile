@@ -6,7 +6,7 @@ WORKDIR /app
 
 ADD udplistener.py /udplistener.py
 
-ENV UDPPORT 8125
+ENV UDPPORT 194
 CMD [ "python3", "-u" , "/udplistener.py"]
 
-EXPOSE 8125/udp
+EXPOSE 194/udp
