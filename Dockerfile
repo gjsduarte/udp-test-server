@@ -9,5 +9,4 @@ ADD udplistener.py /udplistener.py
 ENV UDPPORT 8125
 CMD [ "python3", "-u" , "/udplistener.py"]
 
-EXPOSE ${UDPPORT}
-EXPOSE ${UDPPORT}/udp
+EXPOSE 8125/udp
